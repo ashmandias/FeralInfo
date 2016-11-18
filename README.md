@@ -2,7 +2,7 @@
 
 The manager is offline, the slots are online. Please see status.feral.io for the latest up to date information
 
-This is an unofficial document. Anything on [status.feral.io](status.feral.io) trumps this infomation. This document was created to help answer frequest questions on IRC.
+This is an unofficial document. Anything on [status.feral.io](status.feral.io) trumps this infomation. This document was created to help answer frequent questions on IRC.
 
 ## Password questions
 
