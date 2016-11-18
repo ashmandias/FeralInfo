@@ -78,7 +78,7 @@ wget -qO ~/restart.sh http://git.io/5Uw8Gw && bash ~/restart.sh
 1. Paste the text copied from step 4 and save
 1. You now have access to the rutorrent web-GUI using your new password!(https://slotname.feralhosting.com/username/rutorrent/)
 
-HOW TO RESET DELUGE WEBUI PASSWORD ON FERAL <from mundus2018>
+#### HOW TO RESET DELUGE WEBUI PASSWORD ON FERAL <from mundus2018>
 -------------------------------------------
 * Log in via SSH
 * Delete the web config file
@@ -104,6 +104,9 @@ ps -x | grep deluge  | wc -l
 ```
 
 if the number is higher than 1, deluge is running
+
+#### Alternative way to restart deluge
+[Please check here for another way to restart deluge](https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki/Installable%20software/Restarting%20-%20rtorrent%20-%20Deluge%20-%20Transmission%20-%20MySQL)
 
 ## FAQ access
 
