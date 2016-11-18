@@ -1,5 +1,7 @@
 # FeralInfo
 
+The manager is offline, the slots are online. Please see status.feral.io for the latest up to date information
+
 ## Password questions
 
 The manager is offline. This means if you did not save an ssh or ftp password, you cannot get access.
