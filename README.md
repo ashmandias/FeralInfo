@@ -68,3 +68,8 @@ HOW TO RESET DELUGE WEBUI PASSWORD ON FERAL <from mundus2018>
 
 Backup of the Feral FAQ with lots of tips for different software:
 https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki
+
+## Application access
+
+Note: update server with your server, and user with your username
+The urls to access things are https://server.feralhosting.com/user/rutorrent https://server.feralhosting.com/user/deluge and https://server.feralhosting.com/user/transmission
