@@ -25,7 +25,7 @@ From filezilla, export... site manager, open file in notepad, find <Pass encodin
 * open any entry for feralhosting.com/manager/slot and hopefully find your passwords
 
 ### SSH Keys
-If you have SFTP/FTP access, you can set up SSH keys to get SSH access without knowing the password
+If you have SFTP/FTP access, you can set up [SSH keys to get SSH access without knowing the password](https://github.com/feralhosting/feralfilehosting/tree/master/Feral Wiki/SSH/Public Key Authentication for password-less login)
 
 ### Using a tool to reveal hidden passwords
 [Program to recover passwords from asterisks](http://www.majorgeeks.com/files/details/asterisk_password_spy.html)
@@ -45,7 +45,7 @@ passwd
 pick a strong password! see https://strongpasswordgenerator.com/
 
 ### Apps passwords
-With the SSH password you should be able to get/change your other app passwords
+With the [SSH](https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki/SSH/SSH%20Guide%20-%20The%20Basics) password you should be able to get/change your other app passwords
  
 If you saved any passwords in chrome, try passwords.google.com to find them!
  
@@ -60,7 +60,7 @@ https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki
  
 
 #### Alternative for rutorrent
-To reset from SSH:
+To reset from [SSH](https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki/SSH/SSH%20Guide%20-%20The%20Basics):
 (copy and paste as is -- do not modify)
 ```bash
 cd ~/www/$(whoami).$(hostname).feralhosting.com/public_html/rutorrent; htpasswd .htpasswd $(whoami)
@@ -76,7 +76,7 @@ wget -qO ~/restart.sh http://git.io/5Uw8Gw && bash ~/restart.sh
 1. Enter your slot username and a new password
 1. Click "create .htpasswd file" 
 1. Copy the generated text
-1. Open your FTP/SSH client, connect to your site and ensure "Show Hidden Files" is turned on
+1. Open your FTP/[SSH](https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki/SSH/SSH%20Guide%20-%20The%20Basics) client, connect to your site and ensure "Show Hidden Files" is turned on
 1. Navigate to .../home/username/www/username.slotname/public_html/rutorrent
 1. Right-click and edit the .htpasswd file
 1. Paste the text copied from step 4 and save
@@ -84,7 +84,7 @@ wget -qO ~/restart.sh http://git.io/5Uw8Gw && bash ~/restart.sh
 
 #### HOW TO RESET DELUGE WEBUI PASSWORD ON FERAL <from mundus2018>
 -------------------------------------------
-* Log in via SSH
+* Log in via [SSH](https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki/SSH/SSH%20Guide%20-%20The%20Basics)
 * Delete the web config file
 
 ```bash
