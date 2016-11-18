@@ -104,7 +104,13 @@ https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki
 
 ### Torrent clients
 Note: update server with your server, and user with your username
-The urls to access things are https://server.feralhosting.com/user/rutorrent https://server.feralhosting.com/user/deluge and https://server.feralhosting.com/user/transmission
+The urls to access things are 
+#### Rutorrent
+https://server.feralhosting.com/user/rutorrent 
+#### Deluge
+https://server.feralhosting.com/user/deluge
+#### Transmission
+https://server.feralhosting.com/user/transmission
 
 ### SSH access
 [Follow this guide to get started with SSH](https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki/SSH/SSH%20Guide%20-%20The%20Basics)
