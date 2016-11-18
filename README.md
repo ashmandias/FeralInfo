@@ -23,7 +23,9 @@ From filezilla, export... site manager, open file in notepad, find <Pass encodin
 
 To CHANGE your SSH/ SFTP password to something new
 login with terminal, putty, bash, etc, then:
+```bash
 passwd 
+```
  
 pick a strong password! see https://strongpasswordgenerator.com/
 
@@ -33,6 +35,7 @@ With the SSH password you should be able to get/change your other app passwords
 If you saved any passwords in chrome, try passwords.google.com to find them!
  
 This is the restart script for rutorrent, deluge, transmission, mysql:
+
 ```bash
 wget -qO ~/restart.sh http://git.io/5Uw8Gw && bash ~/restart.sh
 ``` 
