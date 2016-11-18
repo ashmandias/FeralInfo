@@ -19,6 +19,10 @@ From filezilla, export... site manager, open file in notepad, find <Pass encodin
 2. change double click behavior to "open cached file" in the menu
 3. open any entry for feralhosting.com/manager/slot and hopefully find your passwords
 
+
+### Using a tool to reveal hidden passwords
+[Program to recover passwords from asterisks](http://www.majorgeeks.com/files/details/asterisk_password_spy.html)
+
 ### Changing SSH passwords
 
 To CHANGE your SSH/ SFTP password to something new
@@ -89,8 +93,12 @@ https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki
 
 ## Application access
 
+### Torrent clients
 Note: update server with your server, and user with your username
 The urls to access things are https://server.feralhosting.com/user/rutorrent https://server.feralhosting.com/user/deluge and https://server.feralhosting.com/user/transmission
+
+### SSH access
+[Follow this guide to get started with SSH](https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki/SSH/SSH%20Guide%20-%20The%20Basics)
 
 ## Payments
 
