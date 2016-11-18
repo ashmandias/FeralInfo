@@ -20,9 +20,9 @@ From filezilla, export... site manager, open file in notepad, find <Pass encodin
 
 ### Recover SSH password from chrome web cache
 
-1. Download http://www.nirsoft.net/utils/chrome_cache_view.html
-2. change double click behavior to "open cached file" in the menu
-3. open any entry for feralhosting.com/manager/slot and hopefully find your passwords
+* Download http://www.nirsoft.net/utils/chrome_cache_view.html
+* change double click behavior to "open cached file" in the menu
+* open any entry for feralhosting.com/manager/slot and hopefully find your passwords
 
 
 ### Using a tool to reveal hidden passwords
@@ -66,30 +66,34 @@ wget -qO ~/restart.sh http://git.io/5Uw8Gw && bash ~/restart.sh
 ```
  
 #### Alternaitve for rutorrent
-1. Go to http://www.htaccesstools.com/htpasswd-generator/
-2. Enter your slot username and a new password
-3. Click "create .htpasswd file" 
-4. Copy the generated text
-5. Open your FTP/SSH client, connect to your site and ensure "Show Hidden Files" is turned on
-6. Navigate to .../home/username/www/username.slotname/public_html/rutorrent
-7. Right-click and edit the .htpasswd file
-8. Paste the text copied from step 4 and save
-9. You now have access to the rutorrent web-GUI using your new password!(https://slotname.feralhosting.com/username/rutorrent/)
+* Go to http://www.htaccesstools.com/htpasswd-generator/
+* Enter your slot username and a new password
+* Click "create .htpasswd file" 
+* Copy the generated text
+* Open your FTP/SSH client, connect to your site and ensure "Show Hidden Files" is turned on
+* Navigate to .../home/username/www/username.slotname/public_html/rutorrent
+* Right-click and edit the .htpasswd file
+* Paste the text copied from step 4 and save
+* You now have access to the rutorrent web-GUI using your new password!(https://slotname.feralhosting.com/username/rutorrent/)
 
 HOW TO RESET DELUGE WEBUI PASSWORD ON FERAL <from mundus2018>
 -------------------------------------------
-1. Log in via SSH
-2. Delete the web config file
+* Log in via SSH
+* Delete the web config file
+
 ```bash
     rm ~/.config/deluge/web.conf
 ```
-3. Restart Deluge web
+
+* Restart Deluge web
+
 (copy and paste as is -- do not modify)
 ```bash
     killall -9 -u $(whoami) deluge-web && screen -dmS deluge-web deluge-web
 ```
 NOTE: It takes up to 5 minutes for deluge to restart
-4. You can now login to deluge webui, the password is reset to deluge, use the deluge setting to change this
+
+* You can now login to deluge webui, the password is reset to deluge, use the deluge setting to change this
 
 ## FAQ access
 
