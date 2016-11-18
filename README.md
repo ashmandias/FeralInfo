@@ -15,6 +15,9 @@ Check your ssh client and ftp clients for saved passwords.
 ### Recovering password from Filezilla
 From filezilla, export... site manager, open file in notepad, find <Pass encoding="base64">XXXXXXX</Pass>, put XXXXXXX into http://base64decode.net/
 
+### Recovering password from winscp
+[Please follow this guide.](https://winscp.net/eng/docs/faq_password)
+
 ### Recover SSH password from chrome web cache
 
 1. Download http://www.nirsoft.net/utils/chrome_cache_view.html
