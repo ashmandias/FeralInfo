@@ -36,13 +36,25 @@ wget -qO ~/restart.sh http://git.io/5Uw8Gw && bash ~/restart.sh
 For other apps, check the FAQ on github:
 https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki
  
--------------RUTORRENT-------------------
+
+#### Alternative for rutorrent
 To reset from SSH:
 cd ~/www/[user].[server].feralhosting.com/public_html/rutorrent; htpasswd .htpasswd [user]
  
 Then restart rtorrent with
 wget -qO ~/restart.sh http://git.io/5Uw8Gw && bash ~/restart.sh
  
+#### Alternaitve for rutorrent
+1. Go to http://www.htaccesstools.com/htpasswd-generator/
+2. Enter your slot username and a new password
+3. Click "create .htpasswd file" 
+4. Copy the generated text
+5. Open your FTP/SSH client, connect to your site and ensure "Show Hidden Files" is turned on
+6. Navigate to .../home/username/www/username.slotname/public_html/rutorrent
+7. Right-click and edit the .htpasswd file
+8. Paste the text copied from step 4 and save
+9. You now have access to the rutorrent web-GUI using your new password!(https://slotname.feralhosting.com/username/rutorrent/)
+
 HOW TO RESET DELUGE WEBUI PASSWORD ON FERAL <from mundus2018>
 -------------------------------------------
 1. Log in via SSH
