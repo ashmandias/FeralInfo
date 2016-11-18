@@ -2,6 +2,8 @@
 
 The manager is offline, the slots are online. Please see status.feral.io for the latest up to date information
 
+This is an unofficial document. Anything on [status.feral.io](status.feral.io) trumps this infomation. This document was created to help answer frequest questions on IRC.
+
 ## Password questions
 
 The manager is offline. This means if you did not save an ssh or ftp password, you cannot get access.
