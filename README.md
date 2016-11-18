@@ -91,6 +91,8 @@ wget -qO ~/restart.sh http://git.io/5Uw8Gw && bash ~/restart.sh
     mv ~/.config/deluge/web.conf ~/.config/deluge/web.conf-$(date -I)
 ```
 
+OR you can replace the sha1 with "bc28bfa49a73fd2384cbecd6572ea72d0166aa28" and clear the salt with "" in the file web.conf
+
 * Restart Deluge web
 
 (copy and paste as is -- do not modify)
