@@ -24,6 +24,8 @@ From filezilla, export... site manager, open file in notepad, find <Pass encodin
 * change double click behavior to "open cached file" in the menu
 * open any entry for feralhosting.com/manager/slot and hopefully find your passwords
 
+### SSH Keys
+If you have SFTP/FTP access, you can set up SSH keys to get SSH access without knowing the password
 
 ### Using a tool to reveal hidden passwords
 [Program to recover passwords from asterisks](http://www.majorgeeks.com/files/details/asterisk_password_spy.html)
