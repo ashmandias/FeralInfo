@@ -23,7 +23,7 @@ From filezilla, export... site manager, open file in notepad, find <Pass encodin
 
 To CHANGE your SSH/ SFTP password to something new
 login with terminal, putty, bash, etc, then:
-passwd [user]
+passwd 
  
 pick a strong password! see https://strongpasswordgenerator.com/
 
@@ -33,18 +33,24 @@ With the SSH password you should be able to get/change your other app passwords
 If you saved any passwords in chrome, try passwords.google.com to find them!
  
 This is the restart script for rutorrent, deluge, transmission, mysql:
+```
 wget -qO ~/restart.sh http://git.io/5Uw8Gw && bash ~/restart.sh
- 
+``` 
+
 For other apps, check the FAQ on github:
 https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki
  
 
 #### Alternative for rutorrent
 To reset from SSH:
-cd ~/www/[user].[server].feralhosting.com/public_html/rutorrent; htpasswd .htpasswd [user]
- 
+```bash
+cd ~/www/$(whoami).$(hostname).feralhosting.com/public_html/rutorrent; htpasswd .htpasswd $(whoami)
+``` 
+
 Then restart rtorrent with
+```bash
 wget -qO ~/restart.sh http://git.io/5Uw8Gw && bash ~/restart.sh
+```
  
 #### Alternaitve for rutorrent
 1. Go to http://www.htaccesstools.com/htpasswd-generator/
@@ -61,9 +67,13 @@ HOW TO RESET DELUGE WEBUI PASSWORD ON FERAL <from mundus2018>
 -------------------------------------------
 1. Log in via SSH
 2. Delete the web config file
+```bash
     rm ~/.config/web.conf
+```
 3. Restart Deluge web
+```bash
     killall -9 -u $(whoami) deluge-web && screen -dmS deluge-web deluge-web
+```
 4. You can now login to deluge webui, the password is reset to deluge, use the deluge setting to change this
 
 ## FAQ access
@@ -75,3 +85,7 @@ https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki
 
 Note: update server with your server, and user with your username
 The urls to access things are https://server.feralhosting.com/user/rutorrent https://server.feralhosting.com/user/deluge and https://server.feralhosting.com/user/transmission
+
+## Payments
+
+Payments are currently halted, and no slots are being suspended.
