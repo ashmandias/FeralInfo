@@ -88,7 +88,7 @@ wget -qO ~/restart.sh http://git.io/5Uw8Gw && bash ~/restart.sh
 * Delete the web config file
 
 ```bash
-    rm ~/.config/deluge/web.conf
+    mv ~/.config/deluge/web.conf ~/.config/deluge/web.conf-$(date -I)
 ```
 
 * Restart Deluge web
