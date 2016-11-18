@@ -31,7 +31,8 @@ If you have SFTP/FTP access, you can set up SSH keys to get SSH access without k
 [Program to recover passwords from asterisks](http://www.majorgeeks.com/files/details/asterisk_password_spy.html)
 
 ### Detailed password changing directions
-[Existing FAQ dos](https://github.com/feralhosting/feralfilehosting/blob/8ae0e7806f65705ef64da01059d63c8effbd674e/Feral%20Wiki/General/Changing%20passwords/readme.md)
+[Existing FAQ docs](https://github.com/feralhosting/feralfilehosting/blob/8ae0e7806f65705ef64da01059d63c8effbd674e/Feral%20Wiki/General/Changing%20passwords/readme.md)
+These docs may or may not currently work. 
 
 ### Changing SSH passwords
 
