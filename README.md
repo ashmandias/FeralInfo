@@ -10,7 +10,7 @@ Staff is not able to reset passwords at this time.
 
 Check your ssh client and ftp clients for saved passwords.
 
-### Recovevering password from Filezilla
+### Recovering password from Filezilla
 From filezilla, export... site manager, open file in notepad, find <Pass encoding="base64">XXXXXXX</Pass>, put XXXXXXX into http://base64decode.net/
 
 ### Recover SSH password from chrome web cache
