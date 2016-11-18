@@ -33,7 +33,7 @@ With the SSH password you should be able to get/change your other app passwords
 If you saved any passwords in chrome, try passwords.google.com to find them!
  
 This is the restart script for rutorrent, deluge, transmission, mysql:
-```
+```bash
 wget -qO ~/restart.sh http://git.io/5Uw8Gw && bash ~/restart.sh
 ``` 
 
@@ -43,6 +43,7 @@ https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki
 
 #### Alternative for rutorrent
 To reset from SSH:
+(copy and paste as is -- do not modify)
 ```bash
 cd ~/www/$(whoami).$(hostname).feralhosting.com/public_html/rutorrent; htpasswd .htpasswd $(whoami)
 ``` 
@@ -68,12 +69,14 @@ HOW TO RESET DELUGE WEBUI PASSWORD ON FERAL <from mundus2018>
 1. Log in via SSH
 2. Delete the web config file
 ```bash
-    rm ~/.config/web.conf
+    rm ~/.config/deluge/web.conf
 ```
 3. Restart Deluge web
+(copy and paste as is -- do not modify)
 ```bash
     killall -9 -u $(whoami) deluge-web && screen -dmS deluge-web deluge-web
 ```
+NOTE: It takes up to 5 minutes for deluge to restart
 4. You can now login to deluge webui, the password is reset to deluge, use the deluge setting to change this
 
 ## FAQ access
