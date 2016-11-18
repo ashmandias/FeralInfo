@@ -97,6 +97,14 @@ NOTE: It takes up to 5 minutes for deluge to restart
 
 * You can now login to deluge webui, the password is reset to deluge, use the deluge setting to change this
 
+
+You can check if deluge is running with:
+```bash
+ps -x | grep deluge  | wc -l
+```
+
+if the number is higher than 1, deluge is running
+
 ## FAQ access
 
 Backup of the Feral FAQ with lots of tips for different software:
