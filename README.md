@@ -117,4 +117,4 @@ https://server.feralhosting.com/user/transmission
 
 ## Payments
 
-Payments are currently halted, and no slots are being suspended.
+Payments are currently halted, and no slots are being suspended. There is currently no way to make a payment even if you want to.
