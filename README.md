@@ -15,6 +15,10 @@ Check your ssh client and ftp clients for saved passwords.
 ### Recovering password from Filezilla
 From filezilla, export... site manager, open file in notepad, find <Pass encoding="base64">XXXXXXX</Pass>, put XXXXXXX into http://base64decode.net/
 
+### Recovering password from BitKinex
+There are no know free ways to recover your slot's password if you saved it in BitKinex.
+However you can open an SSH session from BitKinex via the black ssh button on the left menu bar of your slot.  Once you have ssh access to your slot, follow the .htpasswd process under the Alternative for rutorrent
+
 ### Recovering password from winscp
 [Please follow this guide.](https://winscp.net/eng/docs/faq_password)
 
