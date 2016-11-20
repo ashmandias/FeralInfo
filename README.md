@@ -52,7 +52,7 @@ passwd
 pick a strong password! see https://strongpasswordgenerator.com/
 
 ### Apps passwords
-With the [SSH](https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki/SSH/SSH%20Guide%20-%20The%20Basics) password you should be able to get/change your other app passwords
+With the [SSH](https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki/SSH/SSH%20Guide%20-%20The%20Basics) password you should be able to get/change your other app passwords.
  
 If you saved any passwords in chrome, try passwords.google.com to find them!
  
@@ -61,6 +61,9 @@ This is the restart script for rutorrent, deluge, transmission, mysql:
 ```bash
 wget -qO ~/restart.sh http://git.io/5Uw8Gw && bash ~/restart.sh
 ``` 
+
+For installable apps, check this:
+https://github.com/feralhosting/feralfilehosting/blob/master/Feral%20Wiki/General/Changing%20passwords/readme.md
 
 For other apps, check the FAQ on github:
 https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki
