@@ -81,7 +81,7 @@ Then restart rtorrent with
 wget -qO ~/restart.sh http://git.io/5Uw8Gw && bash ~/restart.sh
 ```
  
-#### Alternaitve for rutorrent
+#### Alternative for rutorrent
 1. Go to http://www.htaccesstools.com/htpasswd-generator/
 1. Enter your slot username and a new password
 1. Click "create .htpasswd file" 
