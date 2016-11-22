@@ -1,6 +1,6 @@
 #!/usr/bin/env python                                                                                                                                                                         
 
-# To run this: wget -qO blah; python blah
+# To run this: wget -qO ~/DelugeReset.py https://goo.gl/M4Kzm0 && python ~/DelugeReset.py
 
 #Original credit for the script goes to johnnyg in this thread: http://forum.deluge-torrent.org/viewtopic.php?t=33047
 
