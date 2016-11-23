@@ -138,6 +138,9 @@ https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki
 
 ### Torrent clients
 Note: update server with your server, and user with your username
+
+If you are being redirected to status.feral.io, you did not correctly update the URL.
+
 The urls to access things are 
 #### Rutorrent
 https://server.feralhosting.com/user/rutorrent 
