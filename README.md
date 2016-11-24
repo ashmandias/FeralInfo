@@ -69,7 +69,7 @@ For other apps, check the FAQ on github:
 https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki
  
 
-#### Alternative for rutorrent
+#### Easiest way to reset rutorrent
 To reset from [SSH](https://github.com/feralhosting/feralfilehosting/tree/master/Feral%20Wiki/SSH/SSH%20Guide%20-%20The%20Basics):
 (copy and paste as is -- do not modify)
 ```bash
