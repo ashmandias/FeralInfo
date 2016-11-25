@@ -12,4 +12,6 @@ This page is created to track potential feature requests for the new front end
 6. Auto-renewal
 7. Privacy policy
   1. Clearly list what logs are kept, how long, and why
+1. Disk usage graphs
+  1. Email notifications on disk usage
 
