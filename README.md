@@ -112,6 +112,11 @@ Now you open web.conf with a text editor and replace the sha1 with "bc28bfa49a73
 
 (copy and paste as is -- do not modify)
 ```bash
+wget -qO ~/restart.sh http://git.io/5Uw8Gw && bash ~/restart.sh
+``` 
+OR you can run:
+
+```bash
     killall -9 -u $(whoami) deluge-web && screen -dmS deluge-web deluge-web
 ```
 NOTE: It takes up to 5 minutes for deluge to restart
