@@ -6,5 +6,6 @@ Please do not be offended if people ask you what language you normally speak. Th
 
 * French/Français  
   * SystemCP
+  * Seeder99
 * Italian/Italiano  
   * SystemCP
