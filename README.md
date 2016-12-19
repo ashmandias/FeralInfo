@@ -12,6 +12,8 @@ Staff is not able to reset passwords at this time.
 
 Check your ssh client and ftp clients for saved passwords.
 
+**IF YOU HAVE ANY CURRENTLY WORKING PASSWORD TO ANY SERVICE OR WRITE ACCESS TO THE FILESYSTEM SUPPORT WILL RESET PASSWORDS FOR YOU**
+
 **Your FTP password is the same as your ssh password, recover the ftp/ssh password as described below, then you can reset your deluge/rutorrent password.**
 
 ### Recovering password from Filezilla
