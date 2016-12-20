@@ -4,8 +4,9 @@ The manager is offline, the slots are online. Please see status.feral.io for the
 
 This is an unofficial document. Anything on [status.feral.io](status.feral.io) trumps this infomation. This document was created to help answer frequent questions on IRC.
 
-## Password TL;DR Questions
+## Password Questions
 
+###TL;Dr:
 The feral hosting manager page/site is offline. This means if you did not save an ssh or ftp password, or your web interface password, you cannot get access.
 
 Staff is not able to reset passwords at this time.
