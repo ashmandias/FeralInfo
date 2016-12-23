@@ -16,6 +16,17 @@ Check your ssh client and ftp clients for saved passwords.
 **IF YOU HAVE ANY CURRENTLY WORKING PASSWORD (OR SSH KEYS) TO ANY SERVICE OR WRITE ACCESS TO THE FILESYSTEM SUPPORT WILL RESET PASSWORDS FOR YOU**
 
 **Your FTP password is the same as your ssh password, recover the ftp/ssh password as described below, then you can reset your deluge/rutorrent password.**
+### Password Summary
+|access|staff can reset passwords|shows in manager|
+|---|---|---|
+|ssh/ftp/sftp password|yes|no|
+|ssh keys|yes|no|
+|rutorrent password|yes|only after reinstall|
+|deluge password|yes|only after reinstall|
+|transmission password|yes|only after reinstall|
+|deluge thin client|yes|no|
+|sonarr/sickrage/sickbeard/couch potato password|yes|no|
+|any form of write access|yes|no|
 
 ### Recovering password from Filezilla
 From filezilla, export... site manager, open file in notepad, find <Pass encoding="base64">XXXXXXX</Pass>, put XXXXXXX into http://base64decode.net/
