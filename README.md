@@ -39,6 +39,8 @@ There are no know free ways to recover your slot's password if you saved it in B
 However you can open an SSH session from BitKinex via the black ssh button on the left menu bar of your slot.  Once you have ssh access to your slot, follow the .htpasswd process under the Alternative for rutorrent
 To regain full ssh access without having to open BitKinex, use the SSH Keys instructions below.  Once you can ssh in via the balck ssh button in BitKinex, you can set up keys and login via PuTTY any time (took the N00b author of this section less than 10 minutes to set up)
 
+Some users are reporting success at recovering their password from the tool to recover passwords from asteriks linked below in the latest version of bitkinex (3.2.3)
+
 ### Recovering password from winscp
 [Please follow this guide.](https://winscp.net/eng/docs/faq_password)
 
