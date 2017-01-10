@@ -9,8 +9,6 @@ This is an unofficial document. Anything on [status.feral.io](status.feral.io) t
 ###TL;Dr:
 The feral hosting manager page/site is offline. This means if you did not save an ssh or ftp password, or your web interface password, you cannot get access.
 
-Staff is not able to reset passwords at this time.
-
 Check your ssh client and ftp clients for saved passwords.
 
 **IF YOU HAVE ANY CURRENTLY WORKING PASSWORD (OR SSH KEYS) TO ANY SERVICE OR WRITE ACCESS TO THE FILESYSTEM SUPPORT WILL RESET PASSWORDS FOR YOU**
